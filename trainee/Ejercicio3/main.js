@@ -44,9 +44,10 @@ calcularPromedio(1, 3);
 calcularPromedio(1, 3, "");
 calcularPromedio(1, "", "");
 
-/* En este ejercicio se pide calcular el promedio de tres numeros, en donde se van a pedir el numero1, el numero 2 y el numero3
-si el tipo de numero1 o el tipo de numero 2 o el tipo de numero 3 son diferentes de  el type = numero se  va a  crear una instancia 
-que maneje los errores  throw new Error se utiliza para lanzar una excepción o error. Cuando se lanza una excepción, la ejecución del
-programa se detiene y se busca el primer bloque try-catch que pueda manejar la excepción. Si no se encuentra ningún bloque try-catch,
-el programa se detiene y se muestra un mensaje de error. Por lo tanto, throw new Error es una forma de manejar los errores y 
-excepciones en JavaScript, actualmente al finalizar tenemos nuestro try catch funcional.*/
+/* En este ejercicio se pide una funcion que calcule el promedio de tres numeros y los muestre
+dentro va a tener pedido con los parametros num1,num2,num3
+al comenzar se realiza un if en el cual si el typeof de num1 ,num2,num3 es diferente al tipo number 
+muestre el error y retorne null . al finalizar todas las validaciones, creamos la constante promedio 
+a la cual se le agrega una muestra en consola en donde se suman los 3 numeros y se lo divide por 3 
+esta funcion retorna el promedio donde se guardo ese console.log()
+*/
