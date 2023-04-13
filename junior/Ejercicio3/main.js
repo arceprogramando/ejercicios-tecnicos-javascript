@@ -11,6 +11,7 @@ function displayName({ nombre, apellido }) {
 
 }
 
+
 displayName(object)
 
 /* En este ejercicio primero declaramos un objeto que tranquilamente puede venir de otros lados
