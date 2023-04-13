@@ -3,15 +3,6 @@
  * @param {number} numero - El número a evaluar.
  * @returns {string} "par" si el número es par, "impar" si es impar.
  */
-
-/*
-  Este es un comentario de documentación que describe lo que hace la función, el tipo de datos de los argumentos
-  que se esperan y lo que devuelve. Los comentarios de documentación son útiles para que otros desarrolladores
-  comprendan rápidamente lo que hace la función sin tener que leer el código fuente completo.
-*/
-
-
-
 const parOImpar = (numero) => {
     if (typeof numero !== "number") {
         console.log("El valor ingresado no corresponde a un numero")
@@ -37,4 +28,11 @@ parOImpar("-30");
 parOImpar("31");
 parOImpar(31);
 
-
+/* En este ejercicio se crea una funcion flecha ParOImpar en la cual se le pide un numero
+    en la primera validacion si el tipo de numero es diferente a a number pasara directamente a decirme
+que el valor no corresponde a un numero 
+    en la segunda validacion se verifica si numero es menor a 0 , si lo es avisa que no se puede ingresar
+numeros menores a 0
+    en la tercera validacion recien se resuelve el proceso en el cual se verifica si numero es par o impar
+    si numero resto 2 es igual a cero se muestra por consola que es par, si no es impar
+*/

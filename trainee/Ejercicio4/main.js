@@ -18,12 +18,22 @@ Convertidor de grados Celsius a Fahrenheit: Escribe una función que tome un nú
         Celsius) como argumento y devuelva su equivalente en grados Fahrenheit.
 */
 function convertirCelsiusAFahrenheit(celsius) {
-  // Aplica la fórmula de conversión
-  var fahrenheit = (celsius * 9) / 5 + 32;
+  if (typeof celsius !== "number") {
+    console.log(`El valor ${celsius} ingresado no es valido`)
+  }
 
-  // Devuelve el resultado redondeado a dos decimales
+  let fahrenheit = (celsius * 9) / 5 + 32;
+
   return fahrenheit.toFixed(2);
 }
 
 console.log(convertirCelsiusAFahrenheit(32));
 console.log(convertirCelsiusAFahrenheit(32));
+
+
+/* En efecto, la función convertirCelsiusAFahrenheit recibe un número que
+representa una temperatura en grados Celsius y utiliza la fórmula
+matemática de conversión a grados Fahrenheit, que es:
+fahrenheit = (celsius * 9/5) + 32
+La función aplica esta fórmula y devuelve el resultado redondeado a dos decimales utilizando el método toFixed(). Esta función es un ejemplo de cómo se puede utilizar la programación imperativa para resolver un problema matemático sencillo en JavaScript. devolviendolo a 2 decimales
+ */
