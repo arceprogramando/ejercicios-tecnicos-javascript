@@ -1,9 +1,7 @@
 /**
- * Encuentra el número más chico de un array.
- * @param {number[]} array - El array de números.
- * @returns {number} - El número más chico del array.
+ * Muestra el nombre y apellido de una persona a partir de un objeto.
+ * @param {object} person - El objeto que contiene el nombre y apellido de la persona.
  */
-
 
 function encontrarMinimo(array) {
     if (!Array.isArray(array)) {
