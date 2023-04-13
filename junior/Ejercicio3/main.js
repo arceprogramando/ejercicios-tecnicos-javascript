@@ -1,12 +1,19 @@
-/*Escribe la funcion displayName() que recibe como argumentos un objeto y muestra por
-consola el nombre y apellido de la persona. Utilia destructuring y Template Strings */
-
+/**
+*
+* La función displayName() recibe un objeto que contiene el nombre y apellido de una persona.
+* Utiliza destructuring para obtener los valores de las propiedades 'nombre' y 'apellido' del
+* objeto y los muestra en la consola mediante el uso de template strings.
+* @param {Object} obj - El objeto que contiene el nombre y apellido de la persona.
+* @param {string} obj.nombre - El nombre de la persona.
+* @param {string} obj.apellido - El apellido de la persona.
+*/
 let object = {
     nombre: "Felipe",
     apellido: "Arce"
 }
 
 function displayName({ nombre, apellido }) {
+
     console.log(`${nombre} ${apellido}`)
 
 }
