@@ -1,7 +1,16 @@
-/*Escribe una función llamada promedioPonderado que calcule el promedio ponderado de un conjunto de valores y sus
-respectivos pesos. La función debe tomar dos arrays como argumentos: uno con los valores y otro con los pesos.
-Ambos arrays deben tener la misma longitud. */
-
+/**
+ * Calcula el promedio ponderado de un conjunto de valores y sus respectivos pesos.Ambos arrays tiene que tener la misma longitud
+ *
+ * @param {Array<number>} valores - El array con los valores a ponderar.
+ * @param {Array<number>} pesos - El array con los pesos correspondientes a los valores.
+ * @returns {number} El promedio ponderado calculado.
+ * @throws {Error} Si los arrays de valores y pesos no tienen la misma longitud.
+ *
+ * @example
+ * const valores = [5, 7, 10];
+ * const pesos = [2, 3, 5];
+ * const promedio = promedioPonderado(valores, pesos); // 8.5
+ */
 
 const promedioPonderado = (valores, pesos) => {
     if (valores.length !== pesos.length) {
