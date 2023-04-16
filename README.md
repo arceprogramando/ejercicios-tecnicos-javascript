@@ -12,6 +12,9 @@ Si eres completamente nuevo en JavaScript, los ejercicios de trainee pueden ser 
 Los ejercicios de junior son más avanzados que los de trainee y están diseñados para aquellos que tienen algo de experiencia en programación en JavaScript. Si ya has trabajado con JavaScript antes, pero aún estás aprendiendo, los ejercicios de junior pueden ser un buen desafío para ti.
 
 
+## Mid-Level
+
+Los ejercicios de Mid-Level son ejercicios donde se practican arrays , y busquedas con expresiones regulares.
 
 ## Senior
 
