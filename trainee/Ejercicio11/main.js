@@ -1,3 +1,7 @@
+// A ESTE EJERCICIO SE USO NODE, Por eso solamente el javascript , recomiendo pasar a junior para desde ejercicio 1 para entender mejor
+
+
+
 /**
  * Hallar la superficie de un cuadrado conociendo el valor de un lado.
  *
@@ -7,6 +11,7 @@
 
 
 function superficieCuadrado(lado) {
+
     if (isNaN(lado)) {
         throw new Error("El lado no es un número");
     }
