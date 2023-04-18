@@ -14,8 +14,8 @@ Además, se puede utilizar el método .setAttribute para establecer atributos de
 
 
 const url = "https://api.github.com/users/arceprogramando";
-
-fetch(url)
+const url2 = "https://api.thedogapi.com/v1/breeds/search?q=Terrier"
+fetch(url2)
     .then(response => response.json())
     .then(data => {
         console.log(data);
