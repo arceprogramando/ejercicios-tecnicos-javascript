@@ -1,0 +1,53 @@
+CRITERIOS DE ACEPTACIÓN:
+
+- Crear un listado de usuarios con la opción de eliminar, a través del endpoint suministrado.
+
+- El listado debe tener las columnas id, nombre, correo, género, estado.
+
+- Usar Javascript como lenguaje de programación base.
+
+- El uso o apoyo de cualquier librería o framework es válido.
+
+- El plazo máximo de entrega es de 3 horas.
+
+- Priorizar funcionalidad antes que el diseño.
+
+
+MATERIAL DE APOYO:
+
+endpoint para obtener el listado de usuarios:
+ GET   https://gorest.co.in/public-api/users
+
+Se debe enviar el token del usuario en el header en la opción: 
+"Authorization": "Blabla token"
+
+retornará un objeto similar a este:
+{
+    "code": 200,
+    "meta": {
+      "pagination": {
+        "total": 1445,
+        "pages": 73,
+        "page": 1,
+        "limit": 20
+      }
+    },
+    "data": [
+      {
+        "id": 2,
+        "name": "Edward Romero",
+        "email": "edwardromero@gmail.com",
+        "gender": "Male",
+        "status": "Active",
+        "created_at": "2021-02-10T03:50:03.881+05:30",
+        "updated_at": "2021-02-10T03:50:03.881+05:30"
+      }
+    ]
+  }
+
+
+endpoint para eliminar un usuario:
+ DELETE   https://gorest.co.in/public-api/users/$%7Bid%7D
+
+Se debe enviar el token del usuario en el header en la opción: 
+"Authorization": "Blabla token"
