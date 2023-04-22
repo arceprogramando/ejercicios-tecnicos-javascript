@@ -1,16 +1,11 @@
-let user = {
-    nombres: "John",
-    age: 30
-};
+// Escribe el código, una línea para cada acción:
+
+// Crea un objeto user vacío.
+// Agrega la propiedad name con el valor John.
+// Agrega la propiedad surname con el valor Smith.
+// Cambia el valor de name a Pete.
+// Remueve la propiedad name del objeto.
+// solución
 
 
-
-const viewUser = (object) => {
-    console.log(object)
-    console.log(user.name)
-    console.log(user.age)
-    console.log("age" in user)
-
-}
-
-viewUser(user);
+let user = {}
