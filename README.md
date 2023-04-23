@@ -1,6 +1,6 @@
 # Ejercicios Técnicos JavaScript
 
-Este repositorio contiene una serie de ejercicios técnicos de JavaScript en español para ayudarte a prepararte para un examen técnico o entrevista laboral. Los ejercicios están organizados por nivel de experiencia: trainee/junior, senior y experto en JavaScript.
+Este repositorio contiene una serie de ejercicios técnicos de JavaScript en español(actualizando a ingles) para ayudarte a prepararte para un examen técnico o entrevista laboral. Los ejercicios están organizados por nivel de experiencia: trainee/junior, senior y experto en JavaScript.
 
 ## Trainee
 
