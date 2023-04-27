@@ -59,7 +59,7 @@ console.log(addedProduct);
 const allProducts = productManager.getProducts();
 console.log(allProducts);
 
-// Agregar un producto con código repetido (debería arrojar un error)
+
 try {
     const repeatedProduct = {
         title: "producto repetido",
@@ -75,11 +75,11 @@ try {
     console.error(error);
 }
 
-// Obtener un producto por ID (debería encontrar el producto recién agregado)
+
 const foundProduct = productManager.getProductById(addedProduct.id);
 console.log(foundProduct);
 
-// Obtener un producto por ID que no existe (debería arrojar un error)
+
 try {
     const nonexistentProduct = productManager.getProductById("invalidId");
     console.log(nonexistentProduct);
