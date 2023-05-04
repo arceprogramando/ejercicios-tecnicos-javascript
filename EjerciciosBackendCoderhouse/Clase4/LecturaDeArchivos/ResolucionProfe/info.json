@@ -1,0 +1,17 @@
+{
+	"contenidoString": "{\n  \"name\": \"resolucionprofe\",\n  \"version\": \"1.0.0\",\n  \"type\": \"module\",\n  \"description\": \"\",\n  \"main\": \"resolucionProfe.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\"\n}",
+	"contenidoObj": {
+		"name": "resolucionprofe",
+		"version": "1.0.0",
+		"type": "module",
+		"description": "",
+		"main": "resolucionProfe.js",
+		"scripts": {
+			"test": "echo \"Error: no test specified\" && exit 1"
+		},
+		"keywords": [],
+		"author": "",
+		"license": "ISC"
+	},
+	"size": 258
+}
