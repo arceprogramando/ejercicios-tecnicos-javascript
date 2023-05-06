@@ -10,7 +10,7 @@ const env = async () => {
         curso: 'Backend'
     };
 
-    let result = await manager.crearUsuario(user);
+    let result = await manager.addProducts(user);
     console.log(result);
 };
 

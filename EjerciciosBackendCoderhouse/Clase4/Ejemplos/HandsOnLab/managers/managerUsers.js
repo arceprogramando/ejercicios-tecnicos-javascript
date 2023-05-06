@@ -3,7 +3,7 @@ import fs from 'fs';
 const path = `./files/Usuarios.json`;
 
 export default class ManagerUsers {
-    crearUsuario = async (usuario) => {
+    addProducts = async (usuario) => {
         const users = await this.mostrarUsuarios();
 
         if (users.length === 0) {
