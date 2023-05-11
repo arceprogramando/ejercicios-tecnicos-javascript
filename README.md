@@ -1,28 +1,20 @@
-# Ejercicios Técnicos JavaScript
+#JavaScript Technical Exercises
+This repository contains a series of technical exercises in JavaScript to help you prepare for a technical exam or job interview. The exercises are organized by experience level: trainee/junior, mid-level, senior, and expert in JavaScript.
 
-Este repositorio contiene una serie de ejercicios técnicos de JavaScript en español(actualizando a ingles) para ayudarte a prepararte para un examen técnico o entrevista laboral. Los ejercicios están organizados por nivel de experiencia: trainee/junior, senior y experto en JavaScript.
+##Trainee
+The trainee exercises are designed for those who have little or no experience in programming in JavaScript. These exercises focus on basic JavaScript concepts such as variables, data types, flow control structures, and functions. If you are completely new to JavaScript, the trainee exercises can be a good way to get familiar with the language and learn the basic fundamentals of programming. In these exercises, you will be asked to write simple functions and solve simple problems using JavaScript.
 
-## Trainee
+##Junior
+The junior exercises are more advanced than the trainee ones and are designed for those who have some experience in programming in JavaScript. If you have worked with JavaScript before but are still learning, the junior exercises can be a good challenge for you.
 
-Los ejercicios de trainee están diseñados para aquellos que tienen poca o ninguna experiencia en programación en JavaScript. Estos ejercicios se enfocan en conceptos básicos de JavaScript, como variables, tipos de datos, estructuras de control de flujo y funciones.
-Si eres completamente nuevo en JavaScript, los ejercicios de trainee pueden ser una buena manera de familiarizarte con el lenguaje y aprender los fundamentos básicos de la programación. En estos ejercicios, se te pedirá que escribas funciones simples y resuelvas problemas simples utilizando JavaScript.
+##Mid-Level
+The mid-level exercises are exercises where you practice arrays and searching with regular expressions.
 
-## Junior 
+##Senior
+The senior exercises are more advanced and are designed for those who have experience in programming in JavaScript. These exercises focus on more advanced topics such as object-oriented programming, design patterns, error handling, promises, and DOM manipulation.
 
-Los ejercicios de junior son más avanzados que los de trainee y están diseñados para aquellos que tienen algo de experiencia en programación en JavaScript. Si ya has trabajado con JavaScript antes, pero aún estás aprendiendo, los ejercicios de junior pueden ser un buen desafío para ti.
+##JavaScript Expert
+The expert JavaScript exercises are the most advanced and are designed for those who have extensive experience in programming in JavaScript. These exercises focus on advanced topics such as functional programming, complex algorithms, software architecture, and JavaScript frameworks.
 
-
-## Mid-Level
-
-Los ejercicios de Mid-Level son ejercicios donde se practican arrays , y busquedas con expresiones regulares.
-
-## Senior
-
-Los ejercicios de senior son más avanzados y están diseñados para aquellos que tienen experiencia en programación en JavaScript. Estos ejercicios se enfocan en temas más avanzados como programación orientada a objetos, patrones de diseño, manejo de errores, promesas y manejo del DOM.
-
-## JavaScript Experto
-
-Los ejercicios de JavaScript experto son los más avanzados y están diseñados para aquellos que tienen una amplia experiencia en programación en JavaScript. Estos ejercicios se enfocan en temas avanzados como programación funcional, algoritmos complejos, arquitectura de software y frameworks de JavaScript.
-
-### Exitos en tu entrevista
-Cada nivel tiene varios ejercicios para que puedas practicar y mejorar tus habilidades en JavaScript. Esperamos que estos ejercicios te sean de ayuda para prepararte para un examen técnico o entrevista laboral. ¡Diviértete programando! 
+###Success in your interview
+Each level has several exercises for you to practice and improve your JavaScript skills. We hope that these exercises will help you prepare for a technical exam or job interview. Have fun coding!
