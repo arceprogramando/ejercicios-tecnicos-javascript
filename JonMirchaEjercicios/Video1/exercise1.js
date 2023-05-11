@@ -10,28 +10,28 @@ const returnAmountString = (text) => {
     return text.length
 }
 
-console.log(returnAmountString("hola Mundo"))
+console.log(returnAmountString("Hello World"))
 // End my solution
 
 
 
 // Solution Jon mircha
-function contarCaracteres(cadena = "") {
+function countCharacters(textString = "") {
     //Si el usuario no le manda nada , le asigna un string vacio
-    if (!cadena) {
-        console.error("No ingresaste ninguna cadena");
+    if (!textString) {
+        console.error("You did not enter any text string");
     } else {
-        console.log(`La cadena "${cadena}" tiene ${cadena.length} caracteres`);
+        console.log(`the text string "${textString}" have ${textString.length} characters`);
     }
 }
 
-contarCaracteres();
-contarCaracteres("Hola Mundo");
+countCharacters();
+countCharacters("Hola Mundo");
 // End Solution Jon mircha
 
 // Solution jon mircha with arrow function
 
-const arrowContarCaracteres = (cadena = "") =>
-    (!cadena)
-        ? console.error("No ingresaste ninguna cadena")
-        : console.log(`La cadena "${cadena} y tiene ${cadena.length} caracteres"`)
+const arrowcountCharacters = (textString = "") =>
+    (!textString)
+        ? console.error("You did not enter any text string")
+        : console.log(`The text string "${textString}" have ${textString.length} characters"`)

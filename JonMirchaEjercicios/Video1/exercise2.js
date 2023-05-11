@@ -2,10 +2,15 @@
 
 // Solution Jon mircha
 
-const recortarTexto = (cadena = "", longitud = undefined) => {
-    (!cadena)
-        ? console.error("No ingresaste una cadena de texto.")
-        : console.log((cadena.trim()).slice(0, longitud))
+const cropText = (textString = "", length = undefined) => {
+    (!textString)
+        ? console.error("you did not enter a text string.")
+        : (length === undefined)
+            ? console.error("you did not enter the length to trim the text")
+            : console.log(textString.slice(0, length))
 }
 
-recortarTexto("Holas mundo", 5)
+cropText("Hello World", 5);
+cropText();
+cropText("Hello Hello");
+cropText("", 5)
